@@ -1,10 +1,11 @@
 <template>
-  <Web3api />
+  <!-- <Web3api /> -->
+  <AccountSys />
 </template>
 
 <script setup>
 import Web3api from './components/Web3api.vue';
-
+import AccountSys from "./components/AccountSys.vue";
 </script>
 
 <style lang="less">
