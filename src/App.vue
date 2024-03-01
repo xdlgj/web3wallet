@@ -1,11 +1,19 @@
 <template>
   <!-- <Web3api /> -->
-  <AccountSys />
+  <!-- <AccountSys /> -->
+  <WalletPage></WalletPage>
 </template>
 
 <script setup>
-import Web3api from './components/Web3api.vue';
-import AccountSys from "./components/AccountSys.vue";
+// import Web3api from './components/Web3api.vue';
+// import AccountSys from "./components/AccountSys.vue";
+import WalletPage from "./views/WalletPage.vue";
+// import { createApp } from 'vue';
+// import { Dialog } from 'vant';
+
+// const app = createApp();
+// app.use(Dialog)
+
 </script>
 
 <style lang="less">

@@ -7,8 +7,18 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AccountSys: typeof import('./src/components/AccountSys.vue')['default']
+    Button: typeof import('./src/components/Button.vue')['default']
     VanButton: typeof import('vant/es')['Button']
-    VanDivider: typeof import('vant/es')['Divider']
+    VanCell: typeof import('vant/es')['Cell']
+    VanDialog: typeof import('vant/es')['Dialog']
+    VanField: typeof import('vant/es')['Field']
+    VanIcon: typeof import('vant/es')['Icon']
+    VanList: typeof import('vant/es')['List']
+    VanLoading: typeof import('vant/es')['Loading']
+    VanOverlay: typeof import('vant/es')['Overlay']
+    VanRow: typeof import('vant/es')['Row']
+    VanTextEllipsis: typeof import('vant/es')['TextEllipsis']
     Web3api: typeof import('./src/components/Web3api.vue')['default']
   }
 }
